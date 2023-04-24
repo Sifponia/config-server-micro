@@ -2,4 +2,5 @@ mkdir config-server= create a new folder for the config server
 git config --global user.email "diegomauricio15@hotmail.com" = set the email
 git config --global user.name "diegomauricio15" = set the name
 git init = initialize the git
-
+git add . = add all the files
+git commit -m "first commit" = commit the changes
