@@ -4,3 +4,4 @@ git config --global user.name "diegomauricio15" = set the name
 git init = initialize the git
 git add . = add all the files
 git commit -m "first commit" = commit the changes
+git status = check the status of the files
