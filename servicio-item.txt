@@ -5,3 +5,6 @@ git init = initialize the git
 git add . = add all the files
 git commit -m "first commit" = commit the changes
 git status = check the status of the files
+
+
+"Buenos días! Solo quería desearte un día genial lleno de energía y buenos momentos. ¡Que tengas un excelente día!"
