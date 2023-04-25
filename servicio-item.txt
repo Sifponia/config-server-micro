@@ -7,4 +7,10 @@ git commit -m "first commit" = commit the changes
 git status = check the status of the files
 
 
-"Buenos días! Solo quería desearte un día genial lleno de energía y buenos momentos. ¡Que tengas un excelente día!"
+ENPOINT CONFIG SERVER
+http://localhost:8007/api/v1/product/data= get the data from the config server
+http://localhost:8005/api/v1/product/data = get the data from the config server
+localhost:8888/product-eureka-client/dev = get the data from the config server server spring cloud config
+localhost:8888/product-eureka-client/prod= get the data from the config server server spring cloud config
+localhost:8888/product-eureka-client/default= get the data from the config server server spring cloud config
+POST http://localhost:PORT/actuator/refresh = refresh the data from the config server/ update the data from the config server
