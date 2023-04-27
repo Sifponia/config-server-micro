@@ -1,3 +1,4 @@
+COMMAND GITHUB------------------------------------------------------------
 mkdir config-server= create a new folder for the config server
 git config --global user.email "diegomauricio15@hotmail.com" = set the email
 git config --global user.name "diegomauricio15" = set the name
@@ -7,10 +8,24 @@ git commit -m "first commit" = commit the changes
 git status = check the status of the files
 
 
-ENPOINT CONFIG SERVER
+------------------------------
+1). Levantar el config server |
+2). Levantar el eureka server | 
+3). Levantar el eureka client |
+------------------------------
+
+ENPOINT CONFIG SERVER------------------------------------------------------
+http://localhost:8761/ = eureka server
 http://localhost:8007/api/v1/product/data= get the data from the config server
 http://localhost:8005/api/v1/product/data = get the data from the config server
 localhost:8888/product-eureka-client/dev = get the data from the config server server spring cloud config
 localhost:8888/product-eureka-client/prod= get the data from the config server server spring cloud config
 localhost:8888/product-eureka-client/default= get the data from the config server server spring cloud config
 POST http://localhost:PORT/actuator/refresh = refresh the data from the config server/ update the data from the config server
+
+
+ZIPPKIN--------------------------------------------------------------------
+http://localhost:9411/zipkin/ = zipkin server
+https://github.com/openzipkin/zipkin/= zipkin server
+java -jar zipkin-server-2.21.7-exec.jar = run the zipkin server
+
