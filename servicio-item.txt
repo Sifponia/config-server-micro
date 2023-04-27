@@ -8,6 +8,23 @@ git commit -m "first commit" = commit the changes
 git status = check the status of the files
 
 
+or create a new repository on the command line----------------------------
+echo "# micro-eureka" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Sifponia/micro-eureka.git
+git push -u origin main
+
+
+…or push an existing repository from the command line---------------------------
+git remote add origin https://github.com/Sifponia/config-server-micro.git
+git branch -M main
+git push -u origin main
+
+
+
 ------------------------------
 1). Levantar el config server |
 2). Levantar el eureka server | 
